@@ -1,0 +1,35 @@
+- name: Install packages on Debian
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop: "{{ packages }}"
+  when: ansible_os_family == "Debian"
+  tags: packages
+
+- name: Install packages on RedHat
+  yum:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ packages }}"
+  when: ansible_os_family == "RedHat"
+  tags: packages
+
+- name: Create users
+  user:
+    name: "{{ item }}"
+    shell: /bin/bash
+    state: present
+  loop: "{{ users }}"
+  notify: reload ssh
+  tags: users
+
+- name: Create directories
+  file:
+    path: "{{ item }}"
+    state: directory
+    owner: root
+    group: root
+    mode: '0755'
+  loop: "{{ directories }}"
+  tags: directories

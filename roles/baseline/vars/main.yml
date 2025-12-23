@@ -1,0 +1,13 @@
+packages:
+  - git
+  - curl
+  - vim
+  - htop
+
+users:
+  - appuser
+  - devuser
+
+directories:
+  - /opt/app
+  - /opt/logs

@@ -1,0 +1,4 @@
+galaxy_info:
+  author: Moiz Ansari
+  description: Baseline Linux server configuration role
+  min_ansible_version: 2.9
