@@ -1,0 +1,7 @@
+- name: Apply baseline role
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - baseline
