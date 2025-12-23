@@ -1,9 +1,9 @@
 [web]
-server1 212.2.248.142
-server2 212.2.249.161
+212.2.248.142
+212.2.249.161
 
 [db]
-server3 212.2.250.214
+212.2.250.214
 
 [all:vars]
 ansible_user=ansible
