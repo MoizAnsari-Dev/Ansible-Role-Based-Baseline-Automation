@@ -1,0 +1,27 @@
+212.2.250.214 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           373M  1.1M  372M   1% /run
+/dev/vda1        45G  2.9G   42G   7% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/vda16      881M  117M  703M  15% /boot
+/dev/vda15      105M  6.2M   99M   6% /boot/efi
+tmpfs           373M   12K  373M   1% /run/user/1002
+212.2.248.142 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           373M  1.1M  372M   1% /run
+/dev/vda1        45G  2.5G   42G   6% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/vda16      881M  117M  703M  15% /boot
+/dev/vda15      105M  6.2M   99M   6% /boot/efi
+tmpfs           373M   12K  373M   1% /run/user/1002
+212.2.249.161 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           373M  1.1M  372M   1% /run
+/dev/vda1        45G  2.5G   42G   6% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/vda16      881M  117M  703M  15% /boot
+/dev/vda15      105M  6.2M   99M   6% /boot/efi
+tmpfs           373M   12K  373M   1% /run/user/1002
