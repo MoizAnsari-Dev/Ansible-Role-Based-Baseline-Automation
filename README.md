@@ -1,4 +1,5 @@
 # Ansible Role-Based Baseline Server Automation
+
 ![img](https://ansible-dims-playbooks.readthedocs.io/en/latest/_images/ansible-overview.png?utm_source=chatgpt.com)
 
 ---
