@@ -1,0 +1,21 @@
+plugin: amazon.aws.aws_ec2
+hostvars_prefix: aws_
+# Regions to look in (change if your instances are not in us-east-1)
+regions:
+  - us-east-1
+
+# Filter to find your running instances
+filters:
+  tag:Env: web
+# This groups your instances by their (e.g. tag_Name_Webserver)
+keyed_groups:
+  - key: tags.Role
+    prefix: prod
+# This sets the IP address Ansible uses to connect
+hostnames:
+  - dns-name
+  - ip-address
+
+# Set the SSH user automatically (optional, but good practice)
+compose:
+  ansible_host: public_ip_address
