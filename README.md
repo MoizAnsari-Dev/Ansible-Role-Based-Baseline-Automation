@@ -146,6 +146,8 @@ To apply all baseline tasks (packages, users, directories) sequentially:
 ```bash
 ansible-playbook site.yml
 ```
+<img width="1919" height="768" alt="image" src="https://github.com/user-attachments/assets/b221d9c7-2536-4bbd-9834-080796a22767" />
+
 
 ### Selective Execution using Tags
 You can execute fractional parts of the configuration if you only need a specific setup by using `--tags`.
